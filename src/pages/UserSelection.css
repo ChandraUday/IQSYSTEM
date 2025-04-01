@@ -1,0 +1,27 @@
+/* Center the buttons in the middle of the page */
+.panel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    gap: 30px; 
+  }
+  
+  /* Styling for the buttons */
+  .panel-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  
+  
+  .panel-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  

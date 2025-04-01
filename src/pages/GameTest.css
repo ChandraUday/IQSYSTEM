@@ -1,0 +1,67 @@
+/* General Game Container */
+.game-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Game Test Parent Container */
+  .game-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Title for the Parent Game Test */
+  .game-test-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Game Selection Container */
+  .game-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Game Titles */
+  .game-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  /* Game Button */
+  .game-button {
+    background-color: #ff5733;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .game-button:hover {
+    background-color: #c44124;
+  }
+  
+  /* Score Display */
+  .game-score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 15px;
+  }
+  

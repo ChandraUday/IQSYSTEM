@@ -1,0 +1,52 @@
+/* Test Options Page Styling */
+.test-options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .test-options-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .test-button {
+    width: 250px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .test-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .game-button:hover {
+    background-color: #218838;
+  }
+  
+  .qa-button {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .qa-button:hover {
+    background-color: #5936a2;
+  }
+  
